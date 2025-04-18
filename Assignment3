@@ -1,0 +1,18 @@
+Use code you wrote to find the Call and Put prices and the greeks (mentioned above) for:
+
+a)   S = 90;  r = 0.03; v = 0.3, T= 1, K=90
+b)   S = 95; r = 0.03,  v= 0.3;  T= 1, K=90
+c)   S = 100;  r = 0.03; v = 0.3;  T= 2, K=100
+d)   S = 105; r = 0.03,  v= 0.3;  T= 2, K=100
+e)   S = 110; r = 0.03,  v= 0.3;  T= 2, K=100
+(This question uses the same notation introduced for previous assignments.)
+
+
+Write the prices of each option and their greeks to console.  
+
+Part 2:
+
+After that, use the same code to price 1 million options (Call and Put) and the greeks mentioned above. Use random inputs (as described in Assignments A-G). Measure time to run your program from start to finish for this part (Part 2), excluding time to generate the inputs. Write elapsed time to console. Use chrono for time measurements if you use C++, time module if you use Python.
+
+If you use CUDA, time to copy the results back to the host should be included in the time measurement.
+
