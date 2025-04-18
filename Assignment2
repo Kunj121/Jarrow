@@ -1,0 +1,56 @@
+Part 1:
+
+Use a Jarrow-Rudd binomial tree to price European Call and Put options with K = 100 and T = 1, for
+
+a)   S = 90;  r = 0.03; v = 0.3, T= 1, N = 1000
+b)   S = 95; r = 0.03,  v= 0.3;  T= 1, N = 1000
+c)   S = 100;  r = 0.03; v = 0.3;  T= 1, N = 1000
+d)   S = 105; r = 0.03,  v= 0.3;  T= 1, N = 1000
+e)   S = 110; r = 0.03,  v= 0.3;  T= 1, N = 1000
+(This question uses the same notation introduced for previous assignments. N is number of time steps.)
+Using any N > 1000 is accepted, but N<1000 is not valid.
+Write the price of each option to console.
+
+Part 2:
+
+After that, use the same code to price 1 million European Call options. Use random inputs (as described under Assignments A-G). Measure time to run your program from start to finish excluding time to generate the inputs and write it to console. Use chrono for time measurements if you use C++, time module if you use Python.
+
+You may use C++ or Python. Also, you may use any hardware and software combinations we've discussed in class up to week 3 (i.e., do not use CUDA for this assigment). You may do the initial development on your local computer but I highly recommend everyone to do as much work on Midway (Linux) as possible.
+
+Submission info:
+1. Create a directory using a combination of the assignment number and your name on midway3.
+
+e.g. mkdir Assignment2_yourname
+
+2. Do as much development there.  If you wrote the program someplace else, copy your code to this directory.
+
+3. Create a README text file (You may write this file on Windows/Mac and copy it to the folder, or create the file on Linux).
+a) Show how to build the program. List all modules used on midway3.
+b) Show how to run the program
+
+4. Compress the folder using tar
+
+e.g.: tar -cvf Assignment2_chanaka.tar Assignment2_chanaka/
+
+5. Copy the tar file over to your local computer using scp (Mac) or WinSCP (Windows)
+
+5. Submit the tar file using the link in Canvas
+
+Grading:
+
+1. Your program should build and run on midway3
+2. Your program should produce correct answers.
+
+3. Your program should use computing resources properly.
+
+4. Your submission should meet all requirements mentioned above and the announcement I posted earlier.
+
+Max of 80% awarded for completing steps 1-4 above correctly, based on the difficulty level of each technology as shown below:
+
+  C++ with multithreading: 80%
+
+  Python + Cython with multithreading: 80%
+
+  C++ without multithreading: 60%
+
+  Python : 50%

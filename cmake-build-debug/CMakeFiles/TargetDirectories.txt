@@ -1,0 +1,3 @@
+/Users/kunjshah/Downloads/C++/C++_HP/Jarrow/cmake-build-debug/CMakeFiles/Jarrow.dir
+/Users/kunjshah/Downloads/C++/C++_HP/Jarrow/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/kunjshah/Downloads/C++/C++_HP/Jarrow/cmake-build-debug/CMakeFiles/rebuild_cache.dir
